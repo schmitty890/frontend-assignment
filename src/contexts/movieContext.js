@@ -51,7 +51,6 @@ class MovieProvider extends Component {
     return (
       <Provider
         value={{
-          test: this.state.test,
           nowPlaying: this.state.nowPlaying,
           selectedMovieById: this.state.selectedMovieById,
           fetchMovieById: this.fetchMovieById,
